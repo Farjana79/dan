@@ -3931,3 +3931,10 @@ header#main-header.sticky a.menu-toggle {
     width: 100px !important;
 }
 }
+
+
+.app-layout {
+  @supports (-webkit-touch-callout: inherit) {
+    background-attachment: scroll;
+  }
+}
